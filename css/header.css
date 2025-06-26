@@ -1,0 +1,47 @@
+header {
+    background:none;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 48px; 
+   }
+ 
+   header img {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+ 
+   }
+ 
+   header h3 {
+    color: var(--golden-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    
+    
+   }
+ 
+   header p{
+    color: var(--golden-text-color);
+    margin-top: 7px;
+     font-size: 16px;
+     margin-left: 20%;
+     margin-right: 20%;
+   }
+
+
+/*MEDIA*/
+
+
+@Media(min-width: 850px){
+  header p{
+    
+     font-size: 20px;
+    
+   }
+  
+}
+ 
