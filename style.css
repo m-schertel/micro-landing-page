@@ -1,0 +1,160 @@
+:root{
+
+  
+
+    --main-brand-color: rgb(121, 98, 48);
+    --primary-color: whitesmoke;
+    --secondary-color: rgba(252,252,252, .4);
+    --light-secondary-color: transparent;
+    --text-color: rgb(121, 98, 48);
+    --secondary-text-color: whitesmoke;
+    --third-text-color: black;
+    --background-image: url(/images/background.jpg);
+    
+    --golden-text-color:rgb(121, 98, 48);
+
+   
+    --link-text-color:rgb(121, 98, 48);
+    --link-text-color-click:rgb(121, 98, 48);
+    --link-border-color: rgba(252,252,252, .4);
+    --link-background-color-click:transparent;
+    --link-background-color:rgba(252,252,252, .4);
+         
+
+
+    }
+
+  
+  html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+ 
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  .background-image {
+    background-image:var(--background-image);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0%;
+    
+  }
+
+
+  .overlay{  
+    background-color: rgba(252,252,252, .4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow: scroll;
+  }
+
+  .main-object{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+ 
+
+ 
+@Media(min-width: 850px){
+   
+    .overlay{  
+        height: 125%;
+      }
+    
+      .background-image {
+        height: 125%;
+      }
+}
+
+@Media(min-width: 950px){
+   
+    .overlay{  
+        height: 120%;
+      }
+    
+      .background-image {
+        height: 120%;
+      }
+}
+
+@Media(min-width: 1000px){
+   
+    .overlay{  
+        height: 110%;
+      }
+    
+      .background-image {
+        height: 110%;
+      }
+}
+
+@Media(min-width: 1300px){
+   
+    .overlay{  
+        max-height: 105%;
+      }
+    
+      .background-image {
+        height: 105%;
+      }
+}
+
+@Media(min-width: 1500px){
+   
+    .overlay{  
+        height: 100%;
+      }
+    
+      .background-image {
+        height: 100%;
+      }
+}
